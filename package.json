@@ -1,0 +1,30 @@
+{
+  "name": "gif.js",
+  "version": "1.0.0",
+  "description": "gif.js without gif.worker.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhdbstjr98/gif.js.git"
+  },
+  "keywords": [
+    "gif"
+  ],
+  "author": "dhdbstjr98",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhdbstjr98/gif.js/issues"
+  },
+  "homepage": "https://github.com/dhdbstjr98/gif.js#readme",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "events": "^3.3.0"
+  },
+  "devDependencies": {
+    "raw-loader": "^4.0.2",
+    "stream-browserify": "^3.0.0"
+  }
+}
