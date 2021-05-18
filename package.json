@@ -1,6 +1,6 @@
 {
-  "name": "gif.js",
-  "version": "1.0.0",
+  "name": "@dhdbstjr98/gif.js",
+  "version": "1.0.1",
   "description": "gif.js without gif.worker.js",
   "main": "src/index.js",
   "browser": "dist/gif.js",
