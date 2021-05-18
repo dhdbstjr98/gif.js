@@ -1,6 +1,9 @@
 
 # gif.js
 
+[![npm](https://img.shields.io/npm/v/@dhdbstjr98/gif.js.svg?maxAge=2592000)](https://www.npmjs.com/package/@dhdbstjr98/gif.js)
+[![downloads](https://img.shields.io/npm/dt/@dhdbstjr98/gif.js.svg?maxAge=2592000)](https://www.npmjs.com/package/@dhdbstjr98/gif.js)
+
 This library is a modified version of the [gif.js](https://github.com/jnordberg/gif.js) for use without additional gif.worker.js. It call [Web Workers](http://www.w3.org/TR/workers/) using blob. Therefore, it can be easily imported in an environment using npm.
 
 JavaScript GIF encoder that runs in your browser.
@@ -14,7 +17,7 @@ Works in browsers supporting: [Web Workers](http://www.w3.org/TR/workers/), [Fil
 
 ## Usage
 
-Include `gif.js` found in `dist/` in your page. Also make sure to have `gif.worker.js` in the same location.
+Include `gif.js` found in `dist/` in your page.
 
 ```javascript
 var gif = new GIF({
