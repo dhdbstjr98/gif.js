@@ -17,9 +17,11 @@ Works in browsers supporting: [Web Workers](http://www.w3.org/TR/workers/), [Fil
 
 ## Usage
 
-Include `gif.js` found in `dist/` in your page.
+`npm install @dhdbstjr98/gif.js`
 
 ```javascript
+import GIF from '@dhdbstjr98/gif.js'
+
 var gif = new GIF({
   workers: 2,
   quality: 10
