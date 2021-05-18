@@ -14,7 +14,7 @@ const { EventEmitter } = require("events");
 const browser = require("./browser");
 const fs = require("fs");
 
-import workerScript from "./gif.worker.js.txt";
+import workerScript from "../dist/gif.worker.js.txt";
 
 var GIF = (function () {
   let defaults = undefined;
